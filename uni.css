@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#630;
+	margin:0;
+	}
+#nav ul {
+	list-style-type:none;
+	overflow:hidden;
+	width:100%;
+	background:#F5DB7E;
+	font-size:24px;
+	opacity:.9;
+	padding-left:27%;
+	position: fixed;
+    z-index: 9999;
+	border-bottom: 1px solid #630;
+	
+}
+#nav{
+	position:relative;
+	bottom:8px;
+	}
+#nav li{
+	float:left;}
+#nav li a{
+	display: block;
+    color:#630;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+	}
+#nav li a:hover{
+	color:#333;}
+
+#nav li.right {float: right;}
+
+#fb{
+	position:relative;
+	left:200px;
+	padding-left:1%;}
+	
+#slideshow{
+	padding-top:7%;
+	padding-bottom:2%;
+	height:435px;
+	
+	}
+
+
+/* Slideshow container */
+.slideshow-container {
+	position:relative;
+	top:-40px;
+}
+
+
+
+/* Position the "next button" to the right */
+
+
+/* Caption text */
+.text {
+  color:#630;
+  position:relative;
+  top:60px;
+  right:15px;
+  opacity:.8;
+  text-shadow: 2px 2px 5px #FFFFFF;
+  font-size:1000%;
+  widh:100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc)
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+.image img{
+	width:100%;
+	height:2000%;}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity:1}
+}
+	
+.image{
+	height:20px;}
+#comp{
+	background-image:url('C:/Users/rishm/Desktop/resturant/download (2).jpg');
+	height:300px;
+	/*position:relative;
+	bottom:95px;*/
+	}
+#comp h2{
+	color:#FFFF80;
+	text-align:center;
+	padding-top:5%;
+	font-size:200%;}
+#comp input{
+	background-color:#630;
+	height:20%;
+	width:30%;
+	position:relative;
+	top:90px;
+	left:470px;
+	border-radius:4px;
+	border:none;
+	font-size:24px;
+	color:#FFFF80;
+	}
+#comp input:hover {
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+#loc{
+	text-align:center;
+	background-image: url('C:/Users/rishm/Desktop/resturant/images (2).jpg');
+	color:#FFF;
+	height: 800px;
+	/*position:relative;
+	bottom:122px;*/}
+#bookAT{
+	background-color:#630;
+	width:30%;
+	padding:8px;
+	border-radius:4px;
+	border:none;
+	font-size:24px;
+	color:#FFFF80;
+	}	
+#bookAT:hover{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+#loc h2{
+	margin: 0;
+	color:#FFFF80;
+	text-align:center;
+	padding:2%;}
+.container1{
+	padding:2%;
+	margin:1%;}
+.slideshow2{
+	width:100%;
+	}
+.slideshow2 img{
+	position:relative;
+	bottom:5px;
+	left:55px;
+	height:500px;
+	border:2px solid #630;
+	width:100%;}
+.slideb{
+	border:none;
+	background:#B05800;
+	font-size:24px;
+	color:#FFFF80;
+	position:relative;
+	left:55px;
+	}
+#event{
+	border:1px solid #CCC;
+	background:#000;
+	opacity:.8;
+	position:relative;
+	bottom:400px;
+	left:750px;
+	width:40%;}
+#event h3{
+	padding-bottom:1%;
+	border-bottom:1px solid #CCC;
+	}
+#menu{
+	background-image:url('C:/Users/rishm/Desktop/resturant/image (1).jpg');
+	background-color:#C16100;
+	color:#FFFF80;
+	/*position:relative;
+	bottom:300px;*/
+	padding:1%;
+	}
+#menu a{
+ text-decoration: none;
+ color: #FFFF80;	
+}
+#menu a:hover{
+	text-shadow: 1px 2px 2px #000;
+}
+#menu h2{
+	text-align:center;
+    
+	}
+#menu ul{
+	list-style-type:none;
+	overflow:hidden;
+	width:100%;
+	font-size:16px;
+	padding-left:27%;
+	}
+#menu li{
+	float:left;
+	padding:10px;}
+.container2{
+	padding:1%;
+	padding-bottom:2%;
+	margin:2px;
+	color:#630;
+	text-align:center;}
+.container2 img{
+	border:1px solid #CCC;}
+.container2 h4{
+	border-bottom:1px solid #CCC;}
+#box{
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:1%;
+	width:30%;
+	margin-left:2%;}
+#bar{
+	background-image: url('C:/Users/rishm/Desktop/resturant/images (2).jpg');
+	color:#FFFF80;
+	/*position:relative;
+	bottom:320px;*/
+	text-align:center;
+	padding:2%;
+	padding-bottom:3%;}
+#bar button{
+	font-size: 19px;
+}
+#slideshow3{
+	background-image: url('C:/Users/rishm/Desktop/resturant/images (3).jpg');
+	/*position:relative;
+	bottom:320px;*/
+	width:100%;
+	height:500px;}
+#slideshow3 img{
+	width:100%;
+	height:500px;}
+
+#story{
+	background-image: url('C:/Users/rishm/Desktop/resturant/download (6).jpg');
+	background:#815B03;
+	color:#FFFF80;
+	/*position: relative;
+	bottom: 319px;*/
+	text-align:center;
+	padding:1%;
+	padding-bottom: 2%;
+	}
+#welcome{
+	background-image: url('C:/Users/rishm/Desktop/resturant/images (2).jpg');
+	border:1px solid #CCC;
+	padding:1%;
+	margin: 2%;
+	padding-bottom: 3%;
+	text-align:center;}
+#welcome h3{
+	border-bottom:1px solid #CCC;
+	padding-bottom:1%;}
+#news{
+	background-image:url('C:/Users/rishm/Desktop/resturant/images (3).jpg');
+	color:#FFFF97;
+	/*position: relative;
+	bottom: 300px;*/
+	text-align:center;
+	padding:3%;}
+#di4 {
+    border:1px solid #000;
+	background:#FFF;
+	color:#4A2500;
+	margin:1%;
+	width:30%;
+	margin-left:2%;
+}
+#footer{
+	background:#FFFF80;
+	color:#630;
+	height: 95px;
+	padding-top: 1%;
+	padding-left: 1%;
+	display:block;
+	margin: 0;
+	}
+#footer ul{
+	list-style-type:none;
+	}
+#footer li{
+	display:inline-block;
+	padding:1%;
+	font-size:18px;}
+#footer a{
+	text-decoration: none;
+	color:#630;
+	position: relative;
+	left: 1150px;
+	bottom: 40px; 
+}

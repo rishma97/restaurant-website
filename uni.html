@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>Untitled Document</title>
+
+<link rel="stylesheet" href="uni.css" />
+
+</head>
+
+<body>
+ <div id="nav">
+  <ul>
+   <li><a href="#loc">LOCATION  ~</a></li>
+   <li><a href="#menu">MENUS  ~</a></li>
+   <li><a href="#story">STORY  ~</a></li>
+   <li><a href="#bookATable">BOOK A TABLE  ~</a></li>
+   <li><a href="#jobs">JOBS</a></li>
+   <section id="fb"><li><a href="#" class="fa fa-facebook"></a></li>
+   <li><a href="#" class="fa fa-twitter"></a></li>
+   <li><a href="#" class="fa fa-instagram"></a></li></section>
+  </ul>
+ </div>
+
+<div id="slideshow">
+ <div class="slideshow-container">
+   <div class="mySlides fade">
+   <div class="image"><img src="C:\Users\rishm\Desktop\projects\resturant\download (1).jpg" ></div>
+    <div class="text">OTH</div>
+   </div>
+
+   <div class="mySlides fade">
+    <div class="image"> <img src="C:\Users\rishm\Desktop\projects\resturant\images (4).jpg"></div>
+    <div class="text">OTH</div>
+   </div>
+
+   <div class="mySlides fade">
+    <div class="image"> <img src="C:\Users\rishm\Desktop\projects\resturant\images (6).jpg" ></div>
+    <div class="text">OTH</div>
+   </div>
+
+   <div class="mySlides fade">
+    <div class="image"> <img src="C:\Users\rishm\Desktop\projects\resturant\images (5).jpg" ></div>
+    <div class="text">OTH</div>
+   </div>
+ </div>
+
+
+ <script>
+ var myIndex = 0;
+ carousel();
+
+ function carousel() {
+     var i;
+     var x = document.getElementsByClassName("mySlides fade");
+     for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+     }
+
+     myIndex++;
+     if (myIndex > x.length) {myIndex = 1}    
+     x[myIndex-1].style.display = "block";  
+     setTimeout(carousel, 10000);    
+    }
+ </script>
+
+
+</div>
+
+
+<div id="comp">
+ <h2>SUMMER COMPETITON,WIN A MEAL</h2>
+ <input type="button" value="REGISTER NOW" name="register" id="REG" />
+</div>
+
+
+<div id="loc">
+ <h2>LOCATION</h2>
+ <button id="bookAT">BOOK A TABLE</button>
+  <div class="container1">
+  <div class="row">
+    <div class="col-xs-6 col-sm-6">
+    <div class="slideshow2">
+  <img class="mySlides2" src="C:\Users\rishm\Desktop\projects\resturant\download (4).jpg" />
+  <img class="mySlides2" src="C:\Users\rishm\Desktop\projects\resturant\images (4).jpg" />
+  <img class="mySlides2" src="C:\Users\rishm\Desktop\projects\resturant\images (5).jpg"  />
+  <img class="mySlides2" src="C:\Users\rishm\Desktop\projects\resturant\download (6).jpg" />
+
+  <button class="slideb" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="slideb" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+    </div>
+    <div class="col-xs-3 col-sm-3" class="locGrid" ><p>Opening hours<br />
+     Monday - Thursday 9am to 10pm<br />
+     Friday 9am to 10.30pm<br />
+     Saturday 9am to 10.30pm<br />
+     Sunday 9am to 10pm<br />
+      </p></div>
+    <div class="col-xs-3 col-sm-3" class="locGrid" > <p>{Location} <br />
+     Monday - Thursday 9am to 10pm<br />
+     Friday 9am to 10.30pm<br />
+     Saturday 9am to 10.30pm<br />
+     Sunday 9am to 10pm<br /> 
+         </p>
+    </div>
+  </div>
+</div>
+<div id="event">
+ <h3>EVENTS</h3>
+ <p>Since has consistently held its deserved<br /> position at the top of the listings<br />as one of Bristol’s original and<br /> finest waterside dining destinations.</p>
+</div>
+</div>
+
+
+<div id="menu">
+ <h2>MENU</h2>
+ <ul>
+  <li><a href="#">STARTER</a></li>
+  <li>~</li>
+  <li><a href="#">BREVAGES</a></li>
+  <li>~</li>
+  <li><a href="#">BREAKFAST</a></li>
+  <li>~</li>
+  <li><a href="#">LUNCH</a></li>
+  <li>~</li>
+  <li><a href="#">DINNER</a></li>
+ </ul>
+ <div class="container2">
+  <div class="row">
+    <div class="col-xs-4 col-sm-4"><img src="images (5).jpg" /></div>
+  <div class="col-xs-4 col-sm-4"><img src="images (6).jpg" /></div>
+  <div class="col-xs-4 col-sm-4"><img src="images (7).jpg" /></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4 col-sm-4" id="box"><h4>SUNDAY ROAST</h4>~   ~   ~<br />
+TRADITIONAL SUNDAY ROAST<br />
+AT JUST<br /></div>
+  <div class="col-xs-4 col-sm-4" id="box"><h4>FIXED PRICE MENU</h4>~   ~   ~<br />
+2 COURSES FOR 10.95<br />
+OR 3 COURSES FOR 5<br /></div>
+  <div class="col-xs-4 col-sm-4" id="box"><h4>SPARKLING BELLIN</h4>~   ~   ~<br />
+CLASSIC ITALIAN PROSECCO<br />
+COCKTAILS, 2 FOR 1<br /></div>
+  </div>
+</div>
+</div>
+
+<div id="bar">
+ <h2>BAR</h2>
+ <div class="container3">
+  <div class="row">
+    <div class="col-xs-6 col-sm-6"><img src="download (6).jpg" /></div>
+  <div class="col-xs-6 col-sm-6"><button id="bookAT">VIEW OUR DRINKS & COCKTAIL LIST</button></div>
+  </div>
+  </div>
+</div>
+
+<div id="slideshow3">
+<div class="CONTENT">
+  <img class="mySlides" src="images (4).jpg">
+  <img class="mySlides" src="images (5).jpg" >
+  <img class="mySlides" src="images (7).jpg">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500);    
+}
+</script>
+</div>
+
+<div id="story">
+ <h2>STORY</h2>
+ <div id="welcome">
+ <p><h3>WELCOME</h3>
+ I’m providing the code in a variety of ways, depending on how you want to work with it.
+
+Click this link to view, select, and copy the HTML code. Paste into a text editor app and save as .html.
+Download this .html file and open in a text editor.
+Or, you can edit the HTML on CodePen. Follow the link, click Fork, and edit the HTML. After editing you can download an .html file from the Share menu. CodePen can actually host your HTML web page if you create a free CodePen account. After logging in save your forked version of the HTML to your account. You can change the view from Editor to Full Page. Copy and use this Full Page link with others. You can even paste it into a QR code generator for maximum random fun!
+If you use a method where you end up with a saved .html file, you have to have this hosted as a webpage online with a web address. (Note: Dropbox is discontinuing the ability to host HTML from your public folder. Dropbox was where I used to host my HTML.)
+
+A free hosting option for HTML is Neocities. After creating a site at Neocities, click to edit the index.html file. Delete the sample text and paste your HTML code. You can add new files and host multiple HTML pages from your one free account.
+ </p>
+ <p>I’m providing the code in a variety of ways, depending on how you want to work with it.
+
+Click this link to view, select, and copy the HTML code. Paste into a text editor app and save as .html.
+Download this .html file and open in a text editor.
+Or, you can edit the HTML on CodePen. Follow the link, click Fork, and edit the HTML. After editing you can download an .html file from the Share menu. CodePen can actually host your HTML web page if you create a free CodePen account. After logging in save your forked version of the HTML to your account. You can change the view from Editor to Full Page. Copy and use this Full Page link with others. You can even paste it into a QR code generator for maximum random fun!
+If you use a method where you end up with a saved .html file, you have to have this hosted as a webpage online with a web address. (Note: Dropbox is discontinuing the ability to host HTML from your public folder. Dropbox was where I used to host my HTML.)
+
+A free hosting option for HTML is Neocities. After creating a site at Neocities, click to edit the index.html file. Delete the sample text and paste your HTML code. You can add new files and host multiple HTML pages from your one free account.
+ </p>
+ <p>I’m providing the code in a variety of ways, depending on how you want to work with it.
+
+Click this link to view, select, and copy the HTML code. Paste into a text editor app and save as .html.
+Download this .html file and open in a text editor.
+Or, you can edit the HTML on CodePen. Follow the link, click Fork, and edit the HTML. After editing you can download an .html file from the Share menu. CodePen can actually host your HTML web page if you create a free CodePen account. After logging in save your forked version of the HTML to your account. You can change the view from Editor to Full Page. Copy and use this Full Page link with others. You can even paste it into a QR code generator for maximum random fun!
+If you use a method where you end up with a saved .html file, you have to have this hosted as a webpage online with a web address. (Note: Dropbox is discontinuing the ability to host HTML from your public folder. Dropbox was where I used to host my HTML.)
+
+A free hosting option for HTML is Neocities. After creating a site at Neocities, click to edit the index.html file. Delete the sample text and paste your HTML code. You can add new files and host multiple HTML pages from your one free account.
+ </p>
+ </div>
+</div>
+
+<div id="news">
+ <h2>NEWS</h2>
+ <div class="container4">
+  <div class="row">
+    <div class="col-xs-4 col-sm-4" id="di4">MESSAGE BOARD</div>
+    <div class="col-xs-4 col-sm-4" id="di4"><img src="C:\Users\rishm\Desktop\projects\resturant\images (7).jpg"></div>
+    <div class="col-xs-4 col-sm-4" id="di4">TWEETS</div>
+  </div>
+ </div>
+  <button id="bookAT">JOIN OUR MAILING LIST</button>
+</div>
+</body>
+
+<footer>
+<section id="footer">
+<p> © 2017 Cyberators Inc</p>
+ <ul>
+ <li><a href="#" class="fa fa-facebook"></a></li>
+   <li><a href="#" class="fa fa-twitter"></a></li>
+   <li><a href="#" class="fa fa-instagram"></a></li>
+</ul>
+</section>
+</footer>
+</html>
+projects\
